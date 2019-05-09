@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/ombi
-  tag: stable
+  tag: latest
   pullPolicy: IfNotPresent
 
 env:
@@ -27,13 +27,14 @@ ingress:
     #kubernetes.io/ingress.class: traefik
   path: /
   hosts:
-    - ombi.k.microserver.space
+    - chart-example.local
 
 persistence:
   config:
     enabled: true
     accessMode: ReadWriteOnce
     size: 1Gi
+    #storageClass: vsphere
 
 resources: {}
 

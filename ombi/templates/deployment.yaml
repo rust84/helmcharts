@@ -11,13 +11,15 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "ombi.name" . }}
-      release: {{ .Release.Name }}
+      app.kubernetes.io/name: {{ include "ombi.name" . }}
+      app.kubernetes.io/instance: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "ombi.name" . }}
-        release: {{ .Release.Name }}
+        app.kubernetes.io/name: {{ include "ombi.name" . }}
+        helm.sh/chart: {{ include "ombi.chart" . }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
+        app.kubernetes.io/managed-by: {{ .Release.Service }}
     spec:
       volumes:
       - name: config
