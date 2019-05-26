@@ -10,6 +10,7 @@ metadata:
     helm.sh/chart: {{ include "organizr.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
+    traffic-type: external
 {{- with .Values.ingress.annotations }}
   annotations:
 {{ toYaml . | indent 4 }}
