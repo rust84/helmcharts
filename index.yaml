@@ -3,6 +3,21 @@ entries:
   nzbhydra2:
   - apiVersion: v1
     appVersion: 2.6.2-1-01
+    created: "2019-11-16T23:45:12.3684942Z"
+    description: NZBHydra 2 is a meta search for NZB indexers.
+    digest: 32c6ab665b50edb69f04e9a4363b03ea6a2620d626b49529ecfccba9d273bcc5
+    home: https://www.nzbhydra2.org/
+    keywords:
+    - nzbhydra2
+    maintainers:
+    - email: helm@gavinmogan.com
+      name: Gavin Mogan
+    name: nzbhydra2
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/nzbhydra2-2.6.3/nzbhydra2-2.6.3.tgz
+    version: 2.6.3
+  - apiVersion: v1
+    appVersion: 2.6.2-1-01
     created: "2019-11-16T13:52:21.2723511Z"
     description: NZBHydra 2 is a meta search for NZB indexers. It provides easy access
       to a number of raw and newznab based indexers. You can search all your indexers
@@ -21,6 +36,15 @@ entries:
     version: 2.6.2
   ombi:
   - apiVersion: v1
+    appVersion: v3.0.4892
+    created: "2019-11-16T23:45:12.5420352Z"
+    description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+    digest: dce1683fd5235f4490158a566a5852ccd0bcbcfbe03ef208a8e854b8bcb1a61c
+    name: ombi
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/ombi-0.1.3/ombi-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
     appVersion: "1.0"
     created: "2019-11-16T13:52:21.4656112Z"
     description: A Helm chart for Kubernetes
@@ -32,6 +56,15 @@ entries:
   organizr:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-11-16T23:45:12.7165975Z"
+    description: HTPC/Homelab Services Organizer
+    digest: 182cbd0f76b45a8419b512670db4cb588fc42027c0c949bbe902f6bf3b233d16
+    name: organizr
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/organizr-0.1.3/organizr-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-11-16T13:52:21.6323958Z"
     description: A Helm chart for Kubernetes
     digest: fd2f16ec3c5121757848071f75eeb9baaa13910803f7bf023a3eea3bf4d6b7e2
@@ -40,6 +73,15 @@ entries:
     - https://github.com/rust84/helmcharts/releases/download/organizr-0.1.2/organizr-0.1.2.tgz
     version: 0.1.2
   tautulli:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-11-16T23:45:12.889984Z"
+    description: A Python based monitoring and tracking tool for Plex Media Server.
+    digest: 4e581ce53819063b28f37df39a837fa87d793a169e3e9e453e66c6c4358682cf
+    name: tautulli
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/tautulli-0.1.1/tautulli-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v1
     appVersion: latest
     created: "2019-11-16T13:52:21.8139203Z"

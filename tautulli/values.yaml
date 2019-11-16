@@ -76,3 +76,5 @@ persistence:
   accessModes:
     - ReadWriteOnce
   size: 1Gi
+
+podAnnotations: {}
