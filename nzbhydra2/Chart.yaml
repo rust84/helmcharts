@@ -1,8 +1,8 @@
 apiVersion: v1
 appVersion: "2.6.2-1-01"
-description: NZBHydra 2 is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as an indexer source for tools like Sonarr, Radarr or CouchPotato.
+description: NZBHydra 2 is a meta search for NZB indexers.
 name: nzbhydra2
-version: 2.6.2
+version: 2.6.4
 keywords:
   - nzbhydra2
 home: https://www.nzbhydra2.org/
