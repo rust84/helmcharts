@@ -78,3 +78,9 @@ persistence:
   size: 1Gi
 
 podAnnotations: {}
+
+strategy: {}
+  # type: RollingUpdate
+  # rollingUpdate:
+  #   maxSurge: 0
+  #   maxUnavailable: 1

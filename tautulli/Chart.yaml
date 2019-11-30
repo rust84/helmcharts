@@ -2,4 +2,4 @@ apiVersion: v1
 appVersion: "latest"
 description: A Python based monitoring and tracking tool for Plex Media Server.
 name: tautulli
-version: 0.1.1
+version: 0.1.2

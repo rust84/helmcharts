@@ -2,7 +2,7 @@ apiVersion: v1
 appVersion: "2.6.2-1-01"
 description: NZBHydra 2 is a meta search for NZB indexers.
 name: nzbhydra2
-version: 2.6.3
+version: 2.6.4
 keywords:
   - nzbhydra2
 home: https://www.nzbhydra2.org/
