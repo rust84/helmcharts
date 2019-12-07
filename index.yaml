@@ -3,18 +3,18 @@ entries:
   grafana-image-renderer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-06T23:44:27.1838975Z"
+    created: "2019-12-07T07:07:57.1180323Z"
     description: A Grafana remote image renderer that handles rendering panels & dashboards
       to PNGs using headless chrome
-    digest: c571d166fdfa433431f136637f63e2e072e99ca9b9c63757bbbc825b29ed8272
+    digest: c2e8f4a88398a97731279f76cbd6bc22e876263269481a91959015ce6573c5e3
     name: grafana-image-renderer
     urls:
-    - https://github.com/rust84/helmcharts/releases/download/grafana-image-renderer-0.1.0/grafana-image-renderer-0.1.0.tgz
-    version: 0.1.0
+    - https://github.com/rust84/helmcharts/releases/download/grafana-image-renderer-0.1.1/grafana-image-renderer-0.1.1.tgz
+    version: 0.1.1
   nzbhydra2:
   - apiVersion: v1
     appVersion: 2.6.2-1-01
-    created: "2019-12-06T23:44:27.3756053Z"
+    created: "2019-12-07T07:07:57.2996621Z"
     description: NZBHydra 2 is a meta search for NZB indexers.
     digest: fa956df4bdec0d97027f6324e0858a47f8a0ebed8f2dcf9d31621bb923ae0ad2
     home: https://www.nzbhydra2.org/
@@ -30,7 +30,7 @@ entries:
   ombi:
   - apiVersion: v1
     appVersion: v3.0.4892
-    created: "2019-12-06T23:44:27.5432692Z"
+    created: "2019-12-07T07:07:57.5119552Z"
     description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
     digest: 02cda0ab6640c7c6e5a0dc9c6f61ee1421b8a0867a30711034b26f14dba66132
     name: ombi
@@ -40,7 +40,7 @@ entries:
   organizr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-06T23:44:27.7175265Z"
+    created: "2019-12-07T07:07:57.6893955Z"
     description: HTPC/Homelab Services Organizer
     digest: b089c8572d4a8eaaaac59fe45ae043db5240217521e1c1b2bf1b0453839b9c2c
     name: organizr
@@ -50,11 +50,11 @@ entries:
   tautulli:
   - apiVersion: v1
     appVersion: latest
-    created: "2019-12-06T23:44:28.2008103Z"
+    created: "2019-12-07T07:07:57.8713529Z"
     description: A Python based monitoring and tracking tool for Plex Media Server.
     digest: e30a9de5306ec3b3bd06eb350d78047b381c4c25f594604c57efb6ed46f0c804
     name: tautulli
     urls:
     - https://github.com/rust84/helmcharts/releases/download/tautulli-0.1.2/tautulli-0.1.2.tgz
     version: 0.1.2
-generated: "2019-12-06T23:44:26.9185879Z"
+generated: "2019-12-07T07:07:56.8606346Z"
