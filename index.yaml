@@ -4,8 +4,7 @@ entries:
   - apiVersion: v1
     appVersion: "1.0"
     created: "2019-12-07T07:22:14.9826192Z"
-    description: A Grafana remote image renderer that handles rendering panels & dashboards
-      to PNGs using headless chrome
+    description: A Grafana remote image renderer that handles rendering panels & dashboards to PNGs using headless chrome
     digest: f90b680d09689e6d8e88efc1ca82c3357d333e8cf6c3748e42b919bb6030d9f9
     name: grafana-image-renderer
     urls:
@@ -57,4 +56,21 @@ entries:
     urls:
     - https://github.com/rust84/helmcharts/releases/download/tautulli-0.1.2/tautulli-0.1.2.tgz
     version: 0.1.2
+  valheim:
+  - apiVersion: v1
+    appVersion: 0.142.6
+    created: "2021-02-17T01:43:09.8989448Z"
+    description: Valheim dedicated server.
+    digest: 3119830285072fdc1a5704de19628588ef222257398c6f3ffd49ad1c9fd14f35
+    home: https://www.valheimgame.com/
+    icon: https://images.squarespace-cdn.com/content/v1/5e203941ee6ea226e307532c/1591180313714-TA1DE6YCY0ZI4N71H51X/ke17ZwdGBToddI8pDm48kAu641Ux84EsRAFSPI0sGhp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pkshKfPpdbFc2TdErj7uCELEZ-jAsNQpHYczxoOmsKneNGVJWmhdcDAqFjgHQH5ag/valheim_transparent.png?format=2500w
+    keywords:
+    - game
+    - server
+    name: valheim
+    sources:
+    - https://github.com/lloesche/valheim-server-docker
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/valheim-1.0.1/valheim-1.0.1.tgz
+    version: 1.0.1
 generated: "2019-12-07T07:22:14.7341005Z"
