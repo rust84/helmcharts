@@ -57,6 +57,30 @@ entries:
     - https://github.com/rust84/helmcharts/releases/download/tautulli-0.1.2/tautulli-0.1.2.tgz
     version: 0.1.2
   valheim:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-17T18:41:36.8485204Z"
+    dependencies:
+    - name: common
+      repository: https://k8s-at-home.com/charts/
+      version: 3.0.1
+    description: Valheim dedicated gameserver with automatic update and world backup support
+    digest: f76a7a06763baacf2e531cd46dc61ed8610a0e09e5724a9a1cbcf38cfe599e3f
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/valheim
+    icon: https://raw.githubusercontent.com/lloesche/valheim-server-docker/main/misc/Logo_valheim.png
+    keywords:
+    - valheim
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: owner@russellhall.co.uk
+      name: rust84
+    name: valheim
+    sources:
+    - https://github.com/lloesche/valheim-server-docker
+    - https://hub.docker.com/r/lloesche/valheim-server
+    urls:
+    - https://github.com/rust84/helmcharts/releases/download/valheim-2.0.0/valheim-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v1
     appVersion: 0.142.6
     created: "2021-02-17T01:43:09.8989448Z"
