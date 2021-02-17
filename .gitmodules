@@ -1,0 +1,3 @@
+[submodule "valheim-helm"]
+	path = valheim-helm
+	url = https://github.com/grownseed/valheim-helm.git
