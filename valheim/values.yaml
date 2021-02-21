@@ -34,14 +34,31 @@ env: {}
   # DNS_2: 8.8.4.4
 
 service:
-  port:
+  type: LoadBalancer
+  externalTrafficPolicy: Cluster
+  loadBalancerIP: 
+  port: 
     port: 2456
     protocol: UDP
-    additionalPorts:
-    - 2457
-    - 2458
+  additionalPorts:
+  - name: valheim-2
+    port: 2457
+    protocol: UDP
+    targetPort: 2457
+  - name: valheim-3
+    port: 2458
+    protocol: UDP
+    targetPort: 2458
 
 persistence:
   config:
     enabled: false
     mountPath: /config
+
+probes:
+  liveness:
+    enabled: false
+  readiness:
+    enabled: false
+  startup:
+    enabled: false
